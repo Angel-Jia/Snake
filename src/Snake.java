@@ -64,21 +64,25 @@ public class Snake implements Cube{
     }
 
     public void setDirectionUp(){
+        System.out.println("up");
         if(dir != Direction.down)
         dir = Direction.up;
     }
 
     public void setDirectionDown(){
+        System.out.println("down");
         if(dir != Direction.up)
         dir = Direction.down;
     }
 
     public void setDirectionLeft(){
+        System.out.println("left");
         if(dir != Direction.right)
         dir = Direction.left;
     }
 
     public void setDirectionRight(){
+        System.out.println("right");
         if(dir != Direction.left)
         dir = Direction.right;
     }
